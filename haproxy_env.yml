@@ -1,6 +1,6 @@
 key_name: kingdel
 image: xenial
 flavor: m1.tiny
-public_net_id: floating
-private_net_id: fixed
-private_subnet_id: fixed
+public_net_id: public1
+private_net_id: demo-net
+private_subnet_id: demo-subnet
