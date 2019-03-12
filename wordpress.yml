@@ -24,12 +24,11 @@ parameters:
       Recommended value is the Cloud Base image for Openstack.
       Get it from https://alt.fedoraproject.org/cloud/.
     default: fedora-29
-
   net-id:
     type: string
-    description: This is the fixed internal network
+    description: >
+      This is the fixed internal network
     default: demo-net
-
   db_name:
     type: string
     description: WordPress database name
